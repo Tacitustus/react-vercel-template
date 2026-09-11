@@ -6,7 +6,7 @@
 
 ## 🎯 このリポジトリについて
 
-このリポジトリは **GitHub の Public Template リポジトリ** として利用されることを想定しています。  
+このリポジトリは **GitHub の Public Template リポジトリ** として利用されることを想定しています。 本テンプレートのデプロイ先URLは https://react-vercel-template.vercel.app/ です。  
 「Use this template」ボタンから新しいリポジトリを作成し、`npm run setup` でプロジェクト情報を一括更新することで、すぐに開発を開始できます。
 
 ### 含まれるもの
@@ -62,14 +62,14 @@ npm run setup
 
 ## 💻 開発コマンド
 
-| コマンド | 説明 |
-|---------|------|
-| `npm run dev` | 開発サーバーを起動 |
-| `npm run build` | プロダクションビルド |
-| `npm run preview` | ビルド結果のプレビュー |
-| `npm run lint` | ESLint によるコードチェック |
-| `npm run format` | Prettier によるコードフォーマット |
-| `npm run setup` | プロジェクト情報の一括更新 |
+| コマンド          | 説明                              |
+| ----------------- | --------------------------------- |
+| `npm run dev`     | 開発サーバーを起動                |
+| `npm run build`   | プロダクションビルド              |
+| `npm run preview` | ビルド結果のプレビュー            |
+| `npm run lint`    | ESLint によるコードチェック       |
+| `npm run format`  | Prettier によるコードフォーマット |
+| `npm run setup`   | プロジェクト情報の一括更新        |
 
 ---
 
@@ -111,9 +111,9 @@ src/
 
 ## 📝 ドキュメント
 
-| ファイル | 説明 |
-|---------|------|
-| [BLUEPRINT.md](./BLUEPRINT.md) | プロジェクト仕様書 |
+| ファイル                                 | 説明                      |
+| ---------------------------------------- | ------------------------- |
+| [BLUEPRINT.md](./BLUEPRINT.md)           | プロジェクト仕様書        |
 | [.agents/AGENTS.md](./.agents/AGENTS.md) | AI エージェント行動指示書 |
 
 ---

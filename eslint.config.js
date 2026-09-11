@@ -73,4 +73,16 @@ export default tseslint.config(
       'jsx-a11y/anchor-is-valid': 'warn',
     },
   },
+
+  // JS ファイルでは型チェックを無効化し、Node のグローバル変数を許可する
+  {
+    files: ['**/*.js', '**/*.cjs', '**/*.mjs'],
+    ...tseslint.configs.disableTypeChecked,
+    languageOptions: {
+      globals: {
+        process: 'readonly',
+        console: 'readonly',
+      },
+    },
+  }
 );
